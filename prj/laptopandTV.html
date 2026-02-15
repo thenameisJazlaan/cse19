@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laptop & Tv</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f6;
+        }
+
+        header {
+            background-color: #2874f0;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 22px;
+        }
+        
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 10px;
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            width: 350px;
+            height: 430px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .product-card img {
+            width: 350px;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        .product-card h3 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .product-card p {
+            color: green;
+            font-weight: bold;
+        }
+        .products1 {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 10px;
+            gap: 20px;
+        }
+        button {
+            width: 300px;
+            padding: 10px;
+            background-color: #ff9f00;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #fb641b;
+            color: white;
+        }
+
+        .footer {
+            background-color: #172337;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .product-card {
+                width: 48%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    TVs & Laptops 
+</header>
+
+<div class="container">
+<section id="TVs" class="section">
+    <div class="items1">
+        <h2>TVs</h2>
+    <div class="products">
+        <div class="product-card">
+            <img src="https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Television/Images/315258_0_dv11x1.png" alt="TVs">
+           <h3>Samsung 32 inches HD LED Smart TV</h3>
+            <div class="price">₹52,999</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Television/Images/306641_0_zxmpdt.png?tr=w-400" alt="TVs">
+            <h3>Samsung 54 inches smart TV  S6</h3>
+            <div class="price">₹42,999</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Television/Images/308215_0_rvc6cn.png?updatedAt=1751264105470?tr=w-400" alt="TVs">
+            <h3>Samsung 4k OLED smart TV</h3>
+            <div class="price">₹70,999</div>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+        </section>
+    </div>
+
+    <div class="items2">
+        <h2>Laptops</h2>
+    <div class="products1">
+        <div class="product-card">
+            <img src="https://hpstorerajkot.com/wp-content/uploads/71Z29bg8IrL._SL1500_.jpg" alt="Laptop" >
+            <h3>HP OMEN Gaming</h3>
+            <div class="price">₹1,45,900</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR67_GQcoK1mg5_PKvZGGbG-24SwtMJ1bwMmA&s" alt="iPad" >
+            <h3>Acer Predator </h3>
+            <div class="price">₹85,990</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/307438_0_Hr_F6eJ4w.png?updatedAt=1762868653286" alt="Laptops" >
+            <h3>Lenovo LOQ Gaming Laptop</h3>
+            <div class="price">₹80,900</div>
+            <button>Add to Cart</button>
+    </div>
+
+</div>
+    </div>
+
+</body>
+</html>
