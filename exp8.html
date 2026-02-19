@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Profile Cards</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 20px;
+display: flex;
+justify-content: center; /* Centers the cards row */
+}
+/* Container for all cards */
+.card-container {
+display: flex;
+flex-direction: row;
+/* Cards in a row */
+gap: 20px;
+/* Space between cards */
+}
+/* Each card */
+.profile-card {
+background: white;
+width: 250px;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+display: flex;
+flex-direction: column; /* Stack image → name → info */
+align-items: center;
+/* Center content */
+}
+.profile-card img {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin-bottom: 10px;
+}
+.student-name {
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+.course {
+color: #555;
+margin-bottom: 10px;
+}
+.info {
+text-align: center;
+font-size: 14px;
+}
+</style>
+</head>
+<body>
+<div class="card-container">
+<div class="profile-card">
+<div class="avatar">JG</div>
+<div class="student-name">Jazlaan Gazi </div>
+<div class="course">B.Tech Computer Science Engineering</div>
+<div class="info">
+<p>Roll No: 134</p>
+<p>Email: jazlaangazijaxx@gmail.com</p>
+</div>
+</div>
+<div class="profile-card">
+<div class="avatar">HG</div>
+<div class="student-name">Hirdyansh Goyal</div>
+<div class="course">B.Tech Biotechnology Engineering</div>
+<div class="info">
+<p>Roll No: 234</p>
+<p>Email: hirdyansh.goyal840@gmail.com</p>
+</div>
+</div>
+<div class="profile-card">
+<div class="avatar">HS</div>
+<div class="student-name">Himanshu Singh</div>
+<div class="course">B.Tech Computer Science Engineering</div>
+<div class="info">
+<p>Roll No: 151</p>
+<p>Email: himanshux412@gmail.com</p>
+</div>
+</div>
+</div>
+</body>
+</html>
